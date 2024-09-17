@@ -9,25 +9,14 @@
   <title>NilaSoft - Streaming Engineering Passion</title>
 </head>
 <body>
-  <header class="container mt-4 mb-4">
-    <div>
-      <img src="static/logo-wide-title.png" alt="NilaSoft Logo" width="300">
-    
-      <nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
-        <ul class="nav">
-          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="/industries">Industries</a></li>
-          <li class="nav-item"><a class="nav-link"href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-      </div>
-  </header>
+  {% include 'header.html' %}
+  {% include 'slider.html' %}
   <div class="container">
     <main>
       <h2>Welcome to NilaSoft, Your Partner in Semiconductor Distinction</h2>
       <p>We use semiconductor excellence to create innovative and transformative solutions for the future. With 20 years of experience, we are engineering pioneers who improve industries and lives.</p>
     </main>
   </div>
+  {% include 'footer.html' %}
 </body>
 </html>
